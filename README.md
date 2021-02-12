@@ -201,4 +201,14 @@ export class ApiRequestInterceptor implements HttpInterceptor {
   }
 }
 ```
+### Register the interceptor in Module and thats it
+```
+ providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: ApiRequestInterceptor,
+      multi: true
+    }
+  ],
+```
 
