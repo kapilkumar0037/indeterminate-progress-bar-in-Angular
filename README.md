@@ -1,6 +1,6 @@
 # Linear Indeterminate Progress Bar using css
 
-This project explains hoe to implement a material like progress bar in angular. The solution includes pure CSS to create the progress bar and the logic to display the same on every api request using interceptor.
+This project explains how to implement a material like progress bar in angular. The solution includes pure CSS to create the progress bar and the logic to display the same on every api request using interceptor.
 
 ## Progress Bar component
 ### progress-bar.component.html
